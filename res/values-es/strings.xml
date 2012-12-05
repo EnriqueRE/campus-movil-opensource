@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="course_name">Materia</string>
+    <string name="lbl_final">Final</string>
+    <string name="parciales">Parciales</string>
+    <string name="absences">Faltas</string>
+    <string name="book_icon">book_icon</string>
+    <string name="average">Promedio</string>
+    <string name="title_activity_settings">Ajustes</string>
+</resources>

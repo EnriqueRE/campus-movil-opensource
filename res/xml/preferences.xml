@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="notifications"
+        android:summary="@string/preferences_notifications"
+        android:summaryOff="@string/preferences_notifications_deactivated"
+        android:summaryOn="@string/preferences_notifications_activated"
+        android:title="@string/preferences_notifications_title" />
+    <Preference
+        android:key="mail"
+        android:summary="@string/prefferences_mail_summary"
+        android:title="@string/preferences_mail_title" >
+    </Preference>
+    <Preference
+        android:key="about"
+        android:title="@string/preferences_about" >
+    </Preference>
+
+</PreferenceScreen>

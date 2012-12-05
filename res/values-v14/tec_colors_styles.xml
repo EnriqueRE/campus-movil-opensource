@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Buttontec_colors" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtontec_colors" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/btn_default_holo_light</item>
+  </style>
+
+  <style name="Spinnertec_colors" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/spinner_background_holo_light</item>
+  </style>
+
+  <style name="ProgressBartec_colors" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBartec_colors" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBartec_colors" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="Toggletec_colors" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/btn_toggle_holo_light</item>
+  </style>
+
+</resources>

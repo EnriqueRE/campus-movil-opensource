@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="tec_colors" parent="android:Theme.Light">
+
+    <item name="android:editTextStyle">@style/EditTexttec_colors</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxtec_colors</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtontec_colors</item>
+
+    <item name="android:buttonStyle">@style/Buttontec_colors</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtontec_colors</item>
+
+    <item name="android:spinnerStyle">@style/Spinnertec_colors</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnertec_colors.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerItemtec_colors</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBartec_colors</item>
+
+    <item name="android:seekBarStyle">@style/SeekBartec_colors</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggletec_colors</item>
+
+    <item name="android:listViewStyle">@style/ListViewtec_colors</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewtec_colors.White</item>
+
+  </style>
+
+</resources>

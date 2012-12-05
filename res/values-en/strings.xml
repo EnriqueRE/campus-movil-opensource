@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="course_name">Course</string>
+    <string name="lbl_final">Final</string>
+    <string name="parciales">Midterms</string>
+    <string name="absences">Absences</string>
+    <string name="book_icon">book_icon</string>
+    <string name="average">Average</string>
+
+    <!-- Preferences screen -->
+    <string name="preferences_notifications">Activate or Deactivate Notifications</string>
+    <string name="preferences_notifications_deactivated">Notifications Deactivated</string>
+    <string name="preferences_notifications_activated">Notifications Activated</string>
+    <string name="preferences_notifications_title">Notifications</string>
+    <string name="prefferences_mail_summary">Send your comments!</string>
+    <string name="preferences_mail_title">Email the developers</string>
+    <string name="preferences_about">About</string>
+
+    <!-- general average fragment -->
+    <string name="general_average">General Average</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

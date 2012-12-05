@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="CardText">
+        <item name="android:textSize">@dimen/card_small_text</item>
+        <item name="android:textColor">@color/card_text</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="CardLightText" parent="@style/CardText">
+        <item name="android:textColor">@color/card_light_text</item>
+    </style>
+
+    <style name="CardTitle" parent="@style/CardText">
+        <item name="android:textSize">@dimen/card_large_text</item>
+        <item name="android:textColor">@color/card_title_text</item>
+
+        <!-- <item name="android:textUnderlineThickness">sans-serif-light</item> -->
+    </style>
+
+    <style name="CardText.Multiline" parent="@style/CardText">
+        <item name="android:maxLines">@null</item>
+    </style>
+
+    <style name="CardTextBlock">
+        <item name="android:paddingLeft">@dimen/card_padding</item>
+        <item name="android:paddingTop">@dimen/text_block_top_padding</item>
+        <item name="android:paddingRight">@dimen/card_padding</item>
+        <item name="android:paddingBottom">@dimen/text_block_bottom_padding</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

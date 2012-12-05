@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:padding="6dip" android:saveEnabled="false" android:scrollbarAlwaysDrawHorizontalTrack="true" android:scrollbarFadeDuration="1000">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Book"
+        android:src="@drawable/cuaderno" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/icon"
+        android:text="Materia"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RelativeLayout
+        android:id="@+id/layoutP1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/txtTitle"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginTop="22dp"
+        android:background="@raw/item_grade"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="P1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f8f8f8" />
+
+        <TextView
+            android:id="@+id/txtGradeP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtP1"
+            android:layout_centerHorizontal="true"
+            android:text="100"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/alertaP1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@raw/alerta"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/layoutP2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/layoutP1"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/layoutP1"
+        android:background="@raw/item_grade"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/txtP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="P2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f8f8f8" />
+
+        <TextView
+            android:id="@+id/txtGradeP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtP2"
+            android:layout_centerHorizontal="true"
+            android:text="100"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/alertaP2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@raw/alerta"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutP3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:background="@raw/item_grade"
+        android:orientation="vertical" android:layout_alignTop="@id/layoutP2" android:layout_toRightOf="@id/layoutP2" android:layout_marginLeft="5dp">
+
+
+        <TextView
+            android:id="@+id/txtP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="P3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f8f8f8" />
+
+        <TextView
+            android:id="@+id/txtGradeP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtP3"
+            android:layout_centerHorizontal="true"
+            android:text="100"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/alertaP3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@raw/alerta"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutFinal"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/layoutP3"
+        android:background="@raw/item_grade"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/txtFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Final"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#f8f8f8" android:textSize="7pt"/>
+
+        <TextView
+            android:id="@+id/txtGradeFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtFinal"
+            android:layout_centerHorizontal="true"
+            android:text="100"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/alertaFinal"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@raw/alerta"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/activity_background" 
+    android:padding="10dp">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.itesm.movil.fragments.CourseListFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fragment2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.itesm.movil.fragments.AverageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/fragment1"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

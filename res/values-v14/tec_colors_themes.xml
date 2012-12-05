@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="tec_colors" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/Buttontec_colors</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtontec_colors</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnertec_colors</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBartec_colors</item>
+
+    <item name="android:seekBarStyle">@style/SeekBartec_colors</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBartec_colors</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggletec_colors</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+  </style>
+
+</resources>

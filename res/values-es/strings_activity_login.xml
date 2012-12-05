@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_login">Acceso</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Matrícula</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_register">Iniciar Sesión</string>
+    <string name="action_sign_in_short">Accesar</string>
+    <string name="menu_forgot_password">Recuperar contraseña perdida</string>
+    <string name="login_progress_signing_in">Iniciando Sesión&#8230;</string>
+    <string name="error_invalid_email">La matrícula es inválida</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+
+</resources>

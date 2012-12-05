@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="calificacion">
+        <item>Promedio</item>
+        <item>Reciente</item>
+        <item>Final</item>
+    </string-array>
+
+    <string-array name="calificacion_values">
+        <item>Promedio</item>
+        <item>Reciente</item>
+        <item>Final</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginTopTitleCard">15dp</dimen>
+    
+    <dimen name="cards_padding_inbetween">10.0dip</dimen>
+    <dimen name="cards_padding_inbetween_adjusted">9.0dip</dimen>
+    <dimen name="cards_max_column_width">446.0dip</dimen>
+    <dimen name="card_temperature_size">45.0dip</dimen>
+    <dimen name="card_xl_text">35.0sp</dimen>
+    <dimen name="card_large_text">25.0sp</dimen>
+    <dimen name="card_medium_text">18.0sp</dimen>
+    <dimen name="card_small_text">14.0sp</dimen>
+    <dimen name="card_action_text">16.0sp</dimen>
+    <dimen name="card_padding">16.0dip</dimen>
+    <dimen name="text_block_top_padding">14.0dip</dimen>
+    <dimen name="text_block_bottom_padding">20.0dip</dimen>
+    <dimen name="text_block_side_padding">@dimen/card_padding</dimen>
+    <dimen name="card_horizontal_map_height">150.0dip</dimen>
+    <dimen name="horizontal_static_map_height">150.0dip</dimen>
+    <dimen name="card_action_button_height">48.0dip</dimen>
+    <dimen name="card_small_padding">12.0dip</dimen>
+
+    
+    <!-- Back menu -->
+    
+    <dimen name="actionbar_home_width">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    
+</resources>
